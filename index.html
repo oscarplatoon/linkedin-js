@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My LinkedIn Clone</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div id="container">
+      <div id="div-nav" class="w100">
+        <p>This is my area for the nav menu</p>
+      </div>
+
+      <div id="div-main" class="w100">
+        <div id="main-left">
+
+          <div id="div-profile" class="main-boxes">
+            <div id="div-profile-splash-image">
+              <img id="img-splash" src="https://www.chromethemer.com/wallpapers/chromebook-wallpapers/images/colorful-donuts-wallpaper-for-chromebook.jpg" alt="splash image" />
+            </div>
+
+            <div id="div-profile-image">
+              <img id="img-profile" src="http://i.kinja-img.com/gawker-media/image/upload/s--ZmI9y3Jf--/rofg2grln4ihjqxu3jr1.jpg" />
+            </div>
+
+            <div id="div-profile-bio">
+              <h3>Bill Gates</h3>
+              <p id="bio-summary">Founder of Something</p>
+              <button onclick="changeBio();">Try me!</button>
+              <button onclick="changeBoxes();">Change color!</button>
+              <button onclick="changeDivTest();">Click me too!</button>
+              <button id ="alert-button"onclick="alertUser();">But don't click this one!</button>
+            </div>
+          </div>
+
+          <div id="profile-about" class="main-boxes">
+            Some 'About Me' details go here
+          </div>
+
+          <div id="profile-articles" class="main-boxes">
+            Some Articlesgo here
+          </div>
+        </div>
+
+        <div id="main-right">
+          Right content
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html> 
