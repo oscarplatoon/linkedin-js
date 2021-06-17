@@ -1,0 +1,164 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: rgba(236, 236, 236, 0.979);
+}
+
+#nav-bar {
+  display: flex;
+  flex-flow: column;
+  background-color: white;
+  height: 65px;
+  
+}
+#nav-logo {
+  margin-left: 70px;
+  float: left;
+  width: 40px;
+  height: 40px;
+}
+#search-bar {
+  padding-left: 5px;
+}
+.nav-buttons {
+  padding-left: 20px;
+  height: 35px;
+  margin-left: 5px;
+}
+
+li {
+  display: inline;
+  list-style-type: none;
+}
+#home-button {
+  padding-left: 25%;
+}
+
+#div-main {
+  display: flex;
+  flex-flow: row;
+  margin-left: 10%;
+  margin-right: 10%;
+  margin-top: 3%;
+}
+
+#main-left {
+  width: 600px;
+  background-color: white;
+}
+
+#main-right {
+  width: 400px;
+  background-color: white;
+}
+
+.main-boxes {
+  background-color: white;
+}
+
+#div-profile-splash-image {
+  margin:0%;
+  padding-left: 0%;
+  height: 150px;
+  overflow: hidden;
+}
+
+#div-profile {
+  position: relative;
+}
+
+#img-splash {
+  width: 100%;
+}
+
+#div-profile-image {
+  position: absolute;
+  top: 80px;
+}
+
+#img-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border-width: 4px;
+  border-color: white;
+  border-style: solid;
+  margin-left: 15px;
+}
+
+#div-profile-bio {
+  margin: 60px 0px 0px 0px;
+  text-align: left;
+  padding-left: 20px;
+}
+#bio-summary {
+  position: relative;
+  bottom: 12px;
+}
+#bio-location {
+  font-size: small;
+  color: grey;
+  position: relative;
+  bottom: 20px;
+}
+#connections {
+  color: rgb(11, 64, 180);
+  font-size: medium;
+  position: relative;
+  bottom: 20px;
+}
+.personal-buttons {
+  position: relative;
+  bottom: 20px;
+}
+
+#open-to-button {
+  background-color: rgb(8, 50, 235);
+  color: white;
+  border-radius: 50px;
+  font-size: 20px;
+  margin-left: 20px;
+}
+#add-section-button {
+  font-size: 20px;
+  color: rgb(80, 77, 77);
+  border-radius: 50px;
+  border-color: black;
+  background-color: white;
+}
+#more-button {
+  font-size: 20px;
+  color: rgb(80, 77, 77);
+  border-radius: 50px;
+  border-color: black;
+  background-color: white;
+}
+#side-bar {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  border-color: grey;
+  background: white;
+  margin-left: 70%;
+  position: relative;
+  top: -390px;
+  
+
+}
+
+.dashboard {
+  display: flex;
+  flex-flow: column;
+  border-color: rgb(18, 89, 131);
+  border-radius: 5%;
+  background: rgba(92, 228, 238, 0.199);
+  position: relative;
+  margin-top: 20px;
+  margin-left: 10%;
+  padding-left: 25px;
+  padding-top: 20px;
+  margin-right: 35%;
+}
+#private {
+  font-size: medium;
+  color: grey;
+}
