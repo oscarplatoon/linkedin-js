@@ -1,0 +1,112 @@
+body {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-color: lightgray;
+}
+
+#container {
+  display: flex;
+  flex-flow: column;
+  align-items: center; 
+  text-align: center;
+  background-color: aquamarine;
+  width: 900px;
+  margin: auto;
+  line-height: .45;
+}
+
+.w100 {
+  width: 100%;
+}
+
+#div-nav {
+  background-color: whitesmoke;
+  height: 60px;
+}
+
+#div-main {
+  background-color: lightgray;
+  display: flex;
+  flex-flow: row;
+}
+
+#main-left {
+  width: 650px;
+  background-color: lightgray;
+}
+
+#main-right {
+  margin: 12px;
+  padding: 8px;
+  border-radius: 8px;
+  width: 100%;
+  background-color: whitesmoke;
+}
+
+.main-boxes {
+  margin: 12px;
+  padding: 8px;
+  background-color: whitesmoke;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+#div-profile-splash-image {
+  margin: -12px -12px 8px -12px;
+  height: 150px;
+  overflow: hidden;
+}
+
+#div-profile {
+  position: relative;
+}
+
+.img-splash {
+  width: 100%;
+}
+
+#div-profile-image {
+  position: absolute;
+  top: 80px;
+  display: flex;
+  justify-content: left;
+}
+
+#img-profile {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  border-width: 4px;
+  border-color: white;
+  border-style: solid;
+}
+
+#div-profile-bio {
+  margin: 60px 0px 0px 0px;
+  text-align: left;
+  color: black
+}
+
+#div-profile-address {
+  font-size: small;
+  font-weight: 100;
+}
+
+#div-profile-about-me {
+  margin: 15px 0px 0px 0px;
+  text-align: left;
+}
+
+#div-profile-activity {
+  margin: 15px 0px 0px 0px;
+  text-align: left;
+}
+
+#div-people {
+  margin: 15px 0px 0px 0px;
+  text-align: left;
+}
+
+contact-info {
+  font-weight: 550;
+  color: dodgerblue;
+}
